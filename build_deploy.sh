@@ -15,7 +15,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "Received public hash of: $PUBLIC_HASH so lets try to update IPNS to it"
-ipfs name publish -key=LJBrewskis $PUBLIC_HASH
+ipfs name publish -key=GRVLodge56 $PUBLIC_HASH
 if [ $? -ne 0 ]; then
     echo  "Publish to IPNS failed."
     exit 3
